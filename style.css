@@ -57,7 +57,7 @@ header .box > .title {
 
 table {
             width: 100%;
-            border-collapse: collapse;
+            border: 1px solid black;
             margin-top: 20px;
         }
 
