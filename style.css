@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+}
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-image: url("foggy.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 250px;
+}
+header .header {
+  display: inline;
+}
+header .nav-items {
+  display: flex;
+  flex: content;
+  justify-content: space-evenly;
+}
+header .nav-items li {
+  display: inline;
+}
+header .box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+header .box > .title {
+  padding-bottom: 1rem;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.nav {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3803921569);
+  padding: 0.5em;
+  font-size: 19px;
+  font-weight: 900;
+}
+.nav > ul {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.items .item {
+  flex: 300px;
+  margin: 1rem 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.items .item > .image {
+  padding: 0.5rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  color: white;
+  height: 200px;
+  background-color: #8e9074;
+}
+.items .item > .title {
+  font-weight: 1000;
+  margin: 1rem;
+}
+.items .item > .description {
+  margin: 1rem;
+}
